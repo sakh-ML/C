@@ -3,13 +3,12 @@
 #define _GNU_SOURCE
 
 #include <numa.h>
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
 #include <sys/sysinfo.h>
 #include <time.h>
-
+#include <stdint.h>
 #include <pthread.h>
 
 //Is set to 1GB (keep in mind that the System has 0.5GB L3 Cache)

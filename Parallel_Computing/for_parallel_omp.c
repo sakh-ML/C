@@ -8,7 +8,7 @@ Anschließend wird die benötigte Zeit für die Berechnung gemessen und ausgegeb
 #include <math.h>
 #include <stdio.h>
 #include <omp.h>
-#include "myFunction.h"
+#include "math_operations.h"
 
 
 int main() {
